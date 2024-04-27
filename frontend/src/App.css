@@ -1,0 +1,104 @@
+
+body {
+  background-color: #bbadad;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.link {
+  color: rgb(18, 17, 17);
+  text-decoration: none;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dogs-list {
+  list-style: none;
+  padding: 0.5em;
+}
+
+.main {
+  display: flex;
+  padding: auto;
+}
+
+.header {
+ font-style: italic;
+ display: flex;
+ justify-content: center;
+ color: antiquewhite;
+}
+
+
+button {
+  margin: 0.5em;
+  background: #565353;
+  color: white;
+  border-radius: 0.5em;
+  border-style: none;
+  padding: 0.5em;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #0f0f0f;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+
+.images {
+  border-radius: 5px;
+}
+
+.image {
+  border-radius: 10px;
+  margin: 0.5em;
+}
+
+
+
+input {
+  border-radius: 5px;
+  border: 1px solid #565353;
+  padding: 0.5em;
+  display: block;
+}
+
+.link-button {
+  display: flex ;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.create-new {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.friendList {
+  list-style-type: none;
+}
+
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+
